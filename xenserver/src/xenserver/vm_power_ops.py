@@ -9,7 +9,7 @@ import sys
 import XenAPI
 
 
-inputs = {'xenserver_master_ip': '15.146.198.227',
+inputs = {'xenserver_master_ip': '15.14.19.27',
           'xenserver_password': 'reuben',
           'xenserver_user': 'root',
           'vm_name' : 'SLES-11-SP2-x64',
