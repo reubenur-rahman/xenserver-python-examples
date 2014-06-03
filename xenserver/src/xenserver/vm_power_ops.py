@@ -1,5 +1,5 @@
 '''
-Created on 30-May-2014
+Created on 03-June-2014
 
 @author: reuben.13@gmail.com
 Reubenur Rahman
@@ -143,7 +143,7 @@ def str2bool(string):
 def main():
     try:
         print "Aquiring session with the provided xenserver IP"
-        session = XenAPI.Session('http://15.146.198.227/')
+        session = XenAPI.Session('http://'+inputs['xenserver_master_ip'])
         print "Trying to connect to xenserver %s" % inputs['xenserver_master_ip']
         session.xenapi.login_with_password(inputs['xenserver_user'], inputs['xenserver_password'])
         print "Connected to xenserver !"
