@@ -6,7 +6,7 @@ All Rights Reserved
 
 import XenAPI
 
-inputs = {'xenserver_master_ip': '15.212.180.137',
+inputs = {'xenserver_master_ip': '15.22.18.17',
           'xenserver_password': 'reuben',
           'xenserver_user': 'root',
           'vm_name': 'SLES11SP2x64',
