@@ -1,8 +1,7 @@
 '''
-Created on 03-June-2014
-
+Copyright 2014-2015 Reubenur Rahman
+All Rights Reserved
 @author: reuben.13@gmail.com
-Reubenur Rahman
 '''
 
 import sys
